@@ -9,7 +9,7 @@ const Projects = () => {
             <h1 className="text-center text-6xl pt-5 text-slate-800">Projects</h1>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center mx-10 my-5">
 
-            <a href="https://dreamy-bunny-1985e8.netlify.app/" target="_blank" rel="noopener">
+            <a href="https://dreamy-bunny-1985e8.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="bg-white m-4 p-8 rounded-xl shadow-2xl">
                     <img src={algoImage} alt="/"/>
                     <div className="flex justify-between">
@@ -18,7 +18,7 @@ const Projects = () => {
                 </div>
                 </a>
 
-                <a href="https://tourmaline-entremet-124d58.netlify.app/" target="_blank" rel="noopener">
+                <a href="https://tourmaline-entremet-124d58.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="bg-white m-4 p-8 rounded-xl shadow-2xl relative">
                     <img src={cryptoImage} alt="/"/>
                     <div className="flex justify-between">
@@ -27,7 +27,7 @@ const Projects = () => {
                 </div>
                 </a>
 
-                <a href="https://github.com/rkaufusi/" target="_blank" rel="noopener">
+                <a href="https://github.com/rkaufusi/" target="_blank" rel="noreferrer">
                 <div className="bg-white m-4 p-8 rounded-xl shadow-2xl relative">
                     <img src={kanbanImage} alt="/"/>
                     <div className="flex justify-between">
@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                 </div>
                 </a>
-                
+
             </div>
         </div>
     )

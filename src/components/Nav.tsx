@@ -8,7 +8,7 @@ const Nav = () => {
         <div className="flex items-center">
           <h1 className="text-3xl font-bold text-slate-800">Rhett Kaufusi</h1>
         </div>
-          <a href="https://github.com/rkaufusi/" target="_blank" rel="noopener"><AiOutlineGithub className="h-full w-9 text-slate-800"/></a>
+          <a href="https://github.com/rkaufusi/" target="_blank" rel="noreferrer"><AiOutlineGithub className="h-full w-9 text-slate-800"/></a>
       </div>
     </div>
   )
