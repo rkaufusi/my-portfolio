@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Main from './components/Main';
+import Nav from './components/Nav';
+import Projects from './components/Projects';
 
 function App() {
-  return (
-    <>
-    <div className="bg-slate-200">
+  /*
+      <div className="bg-slate-200">
       <h2 className="text-center font-semibold leading-tight text-5xl mt-0 mb-2 text-slate-800">Rhett Kaufusi</h2>
       <h4 className="text-center font-medium leading-tight text-5xl mt-0 mb-2 text-slate-800">Software Engineer</h4>
       <div className="flex justify-center">
@@ -50,6 +52,12 @@ function App() {
       </div>
 
     </div>
+  */
+  return (
+    <>
+      <Nav/>
+      <Main/>
+      <Projects/>
     </>
   );
 }
