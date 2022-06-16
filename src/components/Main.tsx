@@ -12,8 +12,8 @@ const Main = () => {
                     <h1 className="text-6xl">Rhett Kaufusi</h1>
                     <h2 className="text-4xl">Software Developer</h2>
                     <div className="flex flex-row px-10">
-                        <a className="text-blue-700 text-lg" href="https://github.com/rkaufusi/" target="_blank" rel="noreferrer"><h4 className="px-2">Github</h4></a>
-                        <a className="text-blue-700 text-lg" href="https://www.linkedin.com/in/rhett-kaufusi/" target="_blank" rel="noreferrer"><h4 className="px-2">LinkedIn</h4></a>
+                        <a className="text-blue-700 text-xl hover:scale-110 ease-in duration-200" href="https://github.com/rkaufusi/" target="_blank" rel="noreferrer"><h4 className="px-2">Github</h4></a>
+                        <a className="text-blue-700 text-xl hover:scale-110 ease-in duration-200" href="https://www.linkedin.com/in/rhett-kaufusi/" target="_blank" rel="noreferrer"><h4 className="px-2">LinkedIn</h4></a>
                     </div>
                 </div>
             </div>
