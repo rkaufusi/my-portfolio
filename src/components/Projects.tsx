@@ -2,6 +2,7 @@ import React from 'react'
 import algoImage from '../assets/Algo-visualizer3.png'
 import cryptoImage from '../assets/Crypto-search3.png'
 import kanbanImage from '../assets/Kanban-image1.png'
+import timeclock from '../assets/timeclock.png'
 
 const Projects = () => {
     return (
@@ -27,11 +28,11 @@ const Projects = () => {
                 </div>
                 </a>
 
-                <a href="https://github.com/rkaufusi/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/rkaufusi/timeclock" target="_blank" rel="noreferrer">
                 <div className="bg-white m-4 p-8 rounded-xl shadow-2xl hover:scale-105 ease-in duration-200">
-                    <img src={kanbanImage} alt="/"/>
+                    <img src={timeclock} alt="/"/>
                     <div className="flex justify-between">
-                        <h6 className="text-2xl">Project Management KanBan</h6>
+                        <h6 className="text-2xl">Time Clock App</h6>
                     </div>
                 </div>
                 </a>
