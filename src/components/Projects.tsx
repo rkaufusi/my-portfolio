@@ -28,7 +28,7 @@ const Projects = () => {
                 </div>
                 </a>
 
-                <a href="https://github.com/rkaufusi/timeclock" target="_blank" rel="noreferrer">
+                <a href="https://leafy-nasturtium-422453.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="bg-white m-4 p-8 rounded-xl shadow-2xl hover:scale-105 ease-in duration-200">
                     <img src={timeclock} alt="/"/>
                     <div className="flex justify-between">
