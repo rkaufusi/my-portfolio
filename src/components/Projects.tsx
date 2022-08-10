@@ -1,7 +1,6 @@
 import React from 'react'
 import algoImage from '../assets/Algo-visualizer3.png'
 import cryptoImage from '../assets/Crypto-search3.png'
-import kanbanImage from '../assets/Kanban-image1.png'
 import timeclock from '../assets/timeclock.png'
 
 const Projects = () => {
