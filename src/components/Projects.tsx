@@ -10,11 +10,11 @@ const Projects = () => {
             <h1 className="text-center text-6xl pt-5 text-slate-800">Projects</h1>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto my-5">
 
-            <a href="https://github.com/rkaufusi/notesBackend" target="_blank" rel="noreferrer">
+						<a href="https://github.com/rkaufusi/notesBackend" target="_blank" rel="noreferrer">
                 <div className="bg-white m-4 p-8 rounded-xl shadow-2xl hover:scale-105 ease-in duration-200">
                     <img src={notes} alt="/"/>
                     <div className="flex justify-between">
-                        <h6 className="text-2xl">Sorting Algorithm Visualizer</h6>
+                        <h6 className="text-2xl">Full Stack notes app</h6>
                     </div>
                 </div>
                 </a>
@@ -33,6 +33,15 @@ const Projects = () => {
                     <img src={timeclock} alt="/"/>
                     <div className="flex justify-between">
                         <h6 className="text-2xl">Time Clock App</h6>
+                    </div>
+                </div>
+                </a>
+
+								<a href="https://dreamy-bunny-1985e8.netlify.app/" target="_blank" rel="noreferrer">
+                <div className="bg-white m-4 p-8 rounded-xl shadow-2xl hover:scale-105 ease-in duration-200">
+                    <img src={algoImage} alt="/"/>
+                    <div className="flex justify-between">
+                        <h6 className="text-2xl">Sorting Algorithm Visualizer</h6>
                     </div>
                 </div>
                 </a>
